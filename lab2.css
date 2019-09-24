@@ -1,10 +1,10 @@
 /* Lab 2 CSS */
 
 .search-box {
-	border: 2px solid LightGray;
-	border-radius: 5px;
-	margin-left: 25%;
-	margin-right: 25%;
+	border: 1px solid LightGray;
+	border-radius: 3px;
+	margin-left: 30%;
+	margin-right: 30%;
 	padding: 10px;
 	text-align: center;
 }
@@ -12,13 +12,42 @@
 h1:first-of-type {
 	text-align: left;
 	padding-left: 5%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .search-box input {
 	margin: auto;
-	width: 80%;
+	width: 85%;
 	height: inherit;
-	display: inline;
+	display: flex;
 	padding: 2%;
 	border-radius: 5px;
+	border: 1px solid LightGray;
+}
+
+.list-box {
+	border: 1px solid LightGray;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.list-box .list-item {
+	border-bottom: 1px solid LightGray;
+	display: flex;
+	vertical-align: center;	
+}
+
+.list-box .list-item:hover {
+	background-color: whitesmoke;
+}
+
+.list-box .list-item .list-img {
+	padding: 7px;
+}
+
+.list-box .list-item .list-info {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
