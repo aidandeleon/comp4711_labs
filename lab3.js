@@ -1,14 +1,11 @@
 /* Javascript for Lab 3*/
 
 var isAddButtonPressed = false;
-var count = 0;
 
 function addButtonPressed() {
 	if (isAddButtonPressed == true) {
 		return
-	}
-	console.log(isAddButtonPressed + " " + count);
-	
+	}	
 	
 	var addartistbox = document.getElementById("add-artist-box");
 	
@@ -82,6 +79,4 @@ function addArtist() {
 	addartistbox.removeChild(addBtn);
 	
 	isAddButtonPressed = false;
-	console.log(isAddButtonPressed);
-
 }
