@@ -36,8 +36,8 @@ h1:first-of-type {
 	border: 1px solid LightGray;
 }
 
-.search-box .searchbox-inputs .searchbox-addButton {
-	margin: auto;
+.search-box .searchbox-inputs .searchbox-btn {
+	margin: 1px;
 	width: 15%;
 	height: inherit;
 	display: flex;
@@ -48,8 +48,8 @@ h1:first-of-type {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.search-box .searchbox-inputs .searchbox-addButton:hover {
-	margin: auto;
+.search-box .searchbox-inputs .searchbox-btn:hover {
+	margin: 1px;
 	width: 15%;
 	height: inherit;
 	display: flex;
