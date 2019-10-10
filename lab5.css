@@ -1,0 +1,110 @@
+/* Lab 5 CSS */
+
+.search-box {
+	border: 1px solid LightGray;
+	border-radius: 3px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+h1:first-of-type {
+	text-align: left;
+	padding-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.search-box .searchbox-inputs {
+	margin: auto;
+	height: inherit;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	width: 85%;
+}
+
+.search-box .searchbox-inputs .searchbox-textbox {
+	margin: auto;
+	width: 80%;
+	height: inherit;
+	display: flex;
+	padding: 2%;
+	border-radius: 5px;
+	border: 1px solid LightGray;
+}
+
+.search-box .searchbox-inputs .searchbox-btn {
+	margin: 1px;
+	width: 15%;
+	height: inherit;
+	display: flex;
+	padding: 2%;
+	border-radius: 5px;
+	border: 1px solid LightGray;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.search-box .searchbox-inputs .searchbox-btn:hover {
+	margin: 1px;
+	width: 15%;
+	height: inherit;
+	display: flex;
+	padding: 2%;
+	border-radius: 5px;
+	border: 1px solid LightGray;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	background-color: whitesmoke;
+}
+
+.list-box {
+	border: 1px solid LightGray;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.add-artist-box {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 35%;
+	margin-right: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+.list-box .list-item {
+	border-bottom: 1px solid LightGray;
+	display: flex;
+	vertical-align: center;	
+}
+
+.list-box .list-item:hover {
+	background-color: whitesmoke;
+}
+
+.list-box .list-item .list-img {
+	padding: 7px;
+}
+
+.list-box .list-item .list-info {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.list-box .list-item .delete-div {
+	display:flex;align-items:center;
+	padding: 2%;
+}
+
+.list-box .list-item .delete-div .delete-btn {
+	border-radius: 5px;
+	border: 1px solid firebrick;
+	background-color: firebrick;
+	color: white;
+}

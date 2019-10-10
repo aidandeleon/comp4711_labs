@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+
+<head>
+	<title>COMP 4711 Lab 5</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lab5.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="lab5.js"></script>
+</head>
+
+<body>
+	<!--search box div-->
+	<div class="search-box">
+		<h1>Artist Directory</h1>
+		<div class="searchbox-inputs">
+			<input class="searchbox-textbox" id="searchbox-textbox" type="text">
+			<input class="searchbox-btn" type="Submit" value="Add Artist" onclick="addButtonPressed()">
+			<input class="searchbox-btn" type="Submit" value="Search" onclick="searchArtists()">
+		</div>
+	</div>
+
+	<!--adds input boxes when "Add Artist" is pressed-->
+	<div id="add-artist-box" class="add-artist-box"></div>
+
+	<div class="list-box" id="list-box"></div>
+
+</body>
+
+</html>
